@@ -7,7 +7,7 @@
 const numberManager = {
     n: 10,
     getSquare() {
-        function validate() {
+        const validate = () => {
             console.log(`n = ${this.n}`)
             if (this.n <= 0) {
                 throw new Error('Value must be positive')
